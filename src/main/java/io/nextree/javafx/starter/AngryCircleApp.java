@@ -15,6 +15,11 @@ public class AngryCircleApp extends Application {
     private static final int windowHeight = 580;
     private static final String title = "Angry Circle";
 
+    public static void main(String[] args) {
+        //
+        Application.launch(args);
+    }
+
     @Override
     public void start(Stage primaryStage) throws Exception {
         Controller controller = new Controller();
