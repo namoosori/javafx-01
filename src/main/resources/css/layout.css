@@ -1,0 +1,32 @@
+TableView {
+    -fx-focus-color: transparent;
+}
+
+TableView .column-header {
+    -fx-background-color: transparent;
+    -fx-border-color: #dddddd;
+}
+
+TableView .column-header-background {
+    -fx-background-color: #f5f5f5;
+    -fx-border-color: #dddddd;
+    -fx-border-width: 0;
+}
+
+TableView .filler {
+    -fx-background-color: transparent;
+    -fx-border-color: #dddddd;
+    -fx-border-width: 0 0 1 0;
+}
+
+Button {
+    -fx-cursor: hand;
+    -fx-background-color: #e4e4e4;
+}
+
+.relaxButton {
+    -fx-font-size: 9px;
+    -fx-text-fill: #FFF;
+    -fx-cursor: hand;
+    -fx-background-color: #b6524b;
+}
